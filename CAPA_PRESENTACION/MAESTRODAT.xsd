@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MAESTRODAT" targetNamespace="http://tempuri.org/MAESTRODAT.xsd" xmlns:mstns="http://tempuri.org/MAESTRODAT.xsd" xmlns="http://tempuri.org/MAESTRODAT.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MAESTRODAT" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MAESTRODAT" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MAESTRODAT">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Profesor" msprop:Generator_RowEvHandlerName="ProfesorRowChangeEventHandler" msprop:Generator_RowDeletedName="ProfesorRowDeleted" msprop:Generator_RowDeletingName="ProfesorRowDeleting" msprop:Generator_RowEvArgName="ProfesorRowChangeEvent" msprop:Generator_TablePropName="Profesor" msprop:Generator_RowChangedName="ProfesorRowChanged" msprop:Generator_UserTableName="Profesor" msprop:Generator_RowChangingName="ProfesorRowChanging" msprop:Generator_RowClassName="ProfesorRow" msprop:Generator_TableClassName="ProfesorDataTable" msprop:Generator_TableVarName="tableProfesor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Materia" msprop:Generator_ColumnPropNameInTable="MateriaColumn" msprop:Generator_ColumnPropNameInRow="Materia" msprop:Generator_UserColumnName="Materia" msprop:Generator_ColumnVarNameInTable="columnMateria" type="xs:string" minOccurs="0" />
+              <xs:element name="Profesor" msprop:Generator_ColumnPropNameInRow="Profesor" msprop:Generator_ColumnPropNameInTable="ProfesorColumn" msprop:Generator_ColumnVarNameInTable="columnProfesor" msprop:Generator_UserColumnName="Profesor" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Materia" msprop:Generator_RowEvHandlerName="MateriaRowChangeEventHandler" msprop:Generator_RowDeletedName="MateriaRowDeleted" msprop:Generator_RowDeletingName="MateriaRowDeleting" msprop:Generator_RowEvArgName="MateriaRowChangeEvent" msprop:Generator_TablePropName="Materia" msprop:Generator_RowChangedName="MateriaRowChanged" msprop:Generator_UserTableName="Materia" msprop:Generator_RowChangingName="MateriaRowChanging" msprop:Generator_RowClassName="MateriaRow" msprop:Generator_TableClassName="MateriaDataTable" msprop:Generator_TableVarName="tableMateria">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_UserColumnName="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
